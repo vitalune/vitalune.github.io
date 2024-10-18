@@ -28,3 +28,7 @@ These are my favorite cats
 | Garfield | Likes Lasagna |
 | Tom | Chases Jerry |
 | Meowth | Pokemon |
+
+## Pictures
+
+[Rabbit](rabbit.jpeg)
