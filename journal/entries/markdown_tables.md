@@ -31,4 +31,4 @@ These are my favorite cats
 
 ## Pictures
 
-[Rabbit](rabbit.jpeg)
+![Rabbit](rabbit.jpeg)
