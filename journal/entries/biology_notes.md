@@ -2,4 +2,4 @@
 
 ## Glycolysis
 
-Glycolysis takes place in the cytoplasm and involves the breakdown of one molecule of glucose $\chemfig{C6H12O6}$ into two molecules of pyruvate $\chemfig{C3H3O3}$. 
+Glycolysis takes place in the cytoplasm and involves the breakdown of one molecule of glucose $(C6H12O6)$ into two molecules of pyruvate $(C3H3O3)$. 
