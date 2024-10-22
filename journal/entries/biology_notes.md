@@ -12,5 +12,5 @@ $ATP + H2O \to ADP + P_i + energy$
 
 $$ x2 $$
 
-$Glucose Backbone (C6) + P_i \to Glucose 6-phosphate + Fructose 6-phosphate$
+$C6 + P_i \to$ Glucose 6-phosphate + Fructose 6-phosphate
  
