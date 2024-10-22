@@ -8,9 +8,9 @@ Glycolysis takes place in the cytoplasm and involves the breakdown of one molecu
 
 * ATP gets hydrolyzed, losing a phosphate and converting to ADP
 
-$Adenosine Triphosphate (ATP) + H2O \to Adenosine Diphosphate (ADP) + P_i + free energy$
+$ATP + H2O \to ADP + P_i + energy$
 
 $$ x2 $$
 
-$Glucose Backbone (C6) + P_i \to Glucose 6-phosphate + Fructose 6-phosphate
+$Glucose Backbone (C6) + P_i \to Glucose 6-phosphate + Fructose 6-phosphate$
  
