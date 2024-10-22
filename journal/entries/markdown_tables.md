@@ -40,3 +40,5 @@ $y = mx + b$
 $f(x) = x^2$
 
 $f(x) = \frac{3}{4}$
+
+$\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
