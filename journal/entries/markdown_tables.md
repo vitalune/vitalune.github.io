@@ -32,3 +32,11 @@ These are my favorite cats
 ## Pictures
 
 ![Rabbit](rabbit.jpeg)
+
+## Equations
+
+$y = mx + b$
+
+$f(x) = x^2$
+
+$f(x) = \frac{3}{4}$
