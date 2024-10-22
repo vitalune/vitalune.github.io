@@ -12,7 +12,14 @@ $ATP + H2O \to ADP + P_i + energy$
 
 $$ x2 $$
 
-* Glucose backbone receives phosphate, raising its energy; becoming destabilized and splitting into two 3-carbon molecules
+* Glucose backbone receives phosphate, raising its energy; becoming destabilized and splitting into two 3-carbon molecules (triose phosphate)
 
 $C6 + P_i \to$ Glucose 6-phosphate + Fructose 6-phosphate
+
+### 2. NADH Formation
+
+* Triose phosphate is  oxidized, losing a hydrogen atom and electron particle, which gets received by $NAD^+$, reducing it to NADH
+
+$C3H2P2$ - $H2$ 
+
  
