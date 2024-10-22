@@ -12,5 +12,7 @@ $ATP + H2O \to ADP + P_i + energy$
 
 $$ x2 $$
 
+* Glucose backbone receives phosphate, raising its energy; becoming destabilized and splitting into two 3-carbon molecules
+
 $C6 + P_i \to$ Glucose 6-phosphate + Fructose 6-phosphate
  
