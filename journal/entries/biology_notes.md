@@ -33,6 +33,6 @@ $ADP + P_i \to ATP$
 | Glycolysis | Glucose, 2 ATP, 2 $NAD^+$ | 4 ATP, 2 NADH, 2 pyruvate |
 | Krebs Cycle | acetyl CoA, $NAD^+$, ADP | NADH, $FADH_{2}$, $CO_{2}$, ATP |
 | Electron Transport Chain | NADH, $FADH_{2}$, $H^+$, $O_{2}$ | $NAD^+$, ATP, $H_{2}O$ |
-| ATP Synthase | ADP, P_i | ATP |
+| ATP Synthase | ADP, $P_i$ | ATP |
  
  
