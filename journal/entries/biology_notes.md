@@ -37,4 +37,4 @@ $ADP + P_i \to ATP$
  
 ### Visual Representation
 
- 
+![Cellular Respiration](Cellular-Respiration-Diagram.jpg) 
