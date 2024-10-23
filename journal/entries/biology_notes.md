@@ -35,4 +35,6 @@ $ADP + P_i \to ATP$
 | Electron Transport Chain | NADH, $FADH_{2}$, $H^+$, $O_{2}$ | $NAD^+$, ATP, $H_{2}O$ |
 | ATP Synthase | ADP, $P_i$ | ATP |
  
+### Visual Representation
+
  
