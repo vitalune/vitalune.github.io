@@ -1,6 +1,17 @@
 body{
 	background-color:honeydew;
 }
+h2{
+	background-color:#DFD3C3;
+}
+#id1{
+	text-align:center;
+	color:teal;
+}
+#id1{
+	text-align=center;
+	color:teal;
+}
 header{
 	background-color:powderblue;
 }
