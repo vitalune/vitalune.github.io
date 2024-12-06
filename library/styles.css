@@ -1,0 +1,10 @@
+body{
+	background-color:honeydew;
+}
+header{
+	background-color:powderblue;
+}
+td, td, table{
+	border: 1px solid;
+	border-collapse:collapse;
+}
