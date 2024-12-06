@@ -8,12 +8,8 @@ h2{
 	text-align:center;
 	color:teal;
 }
-#id1{
-	text-align=center;
-	color:teal;
-}
 header{
-	background-color:powderblue;
+	background-color:rgb(204,204,255);
 }
 td, td, table{
 	border: 1px solid;
