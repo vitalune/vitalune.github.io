@@ -3,6 +3,10 @@ body{
 }
 h2{
 	background-color:#DFD3C3;
+	font-family:'noto-serif', 'libre-baskerville', 'roboto-flex', 'roboto', sans-serif
+}
+p{
+	font-family:'helvetica', 'playfair display', 'lora', 'serif'
 }
 #id1{
 	text-align:center;
