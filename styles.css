@@ -1,18 +1,29 @@
 body{
+   margin: 0;
+   padding: 0;
    font-family: 'Poppins', sans-serif;
    background-color: #fff;
 }
 
 #main-header{
    background-color: #f5f5f5;
+   padding: 2rem;
    text-align: center;
+   border-bottom: 2px solid #ccc;
 }
 
 .img{
    max-width: 100%;
+   display: block;
+   margin: 1rem auto;
+   border: 3px solid #333;
+   padding: 0.5rem;
 }
 
 blockquote{
    font-family: Georgia, serif;
+   margin: 1rem 2rem;
+   padding: 1rem;
+   border-left: 4px solid #999;
    background-color: #fafafa;
 }
