@@ -12,7 +12,7 @@ body{
    border-bottom: 2px solid #ccc;
 }
 
-.img{
+img{
    max-width: 100%;
    display: block;
    margin: 1rem auto;
