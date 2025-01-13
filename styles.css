@@ -12,6 +12,13 @@ body{
    border-bottom: 2px solid #ccc;
 }
 
+#img_caption{
+   text-align: center;
+   font-style: italic;
+   margin-top: 2rem;
+   margin-bottom: 0.5rem;
+   color: #666;
+}
 img{
    max-width: 100%;
    display: block;
