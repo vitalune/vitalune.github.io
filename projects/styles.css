@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Georgia&display=swap');
+
+body{
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 1rem;
+   padding: 1rem;
+   background-color: #fff;
+}
+
+a{
+   color: #007acc;
+   font-weight: bold;
+   font-size: 1.1rem;
+}
+
+hr{
+   grid-column: 1/-1;
+   border-top: 1px solid #ccc;
+   margin: 1rem 0;
+}
