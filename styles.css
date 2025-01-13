@@ -27,3 +27,18 @@ blockquote{
    border-left: 4px solid #999;
    background-color: #fafafa;
 }
+
+a{
+   color: #007acc;
+   font-weight: bold;
+}
+
+p{
+   line-height: 1.6;
+   margin: 0.5rem 1rem;
+}
+
+hr{
+   margin: 1rem 0;
+   border-top: 1px solid #ccc;
+}
