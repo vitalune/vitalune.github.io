@@ -1,0 +1,18 @@
+body{
+   font-family: 'Poppins', sans-serif;
+   background-color: #fff;
+}
+
+#main-header{
+   background-color: #f5f5f5;
+   text-align: center;
+}
+
+.img{
+   max-width: 100%;
+}
+
+blockquote{
+   font-family: Georgia, serif;
+   background-color: #fafafa;
+}
