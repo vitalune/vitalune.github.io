@@ -1,0 +1,33 @@
+@-moz-document domain("apsva.instructure.com") {
+
+    body {
+        background-color: rgb(224, 224, 224);
+        text-align: center;
+    }
+
+    #menu {
+        background-color: #333333;
+    }
+
+    .ic-Dashboard-header__layout {
+        background-color: #EADDCA
+    }
+
+    .PlannerApp .Day-styles__root.planner-day {
+        background-color: rgb(224, 224, 224);
+        font-family: helvetica, garamond, times new roman;
+    }
+
+    .Day-styles__root.planner-day {
+        border: 1px solid black;
+        width: 800px;
+        text-align: center;
+    }
+
+    .Day-styles__root.planner-today {
+        width: 750px;
+        height: 400px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+}
