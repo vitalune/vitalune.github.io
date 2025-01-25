@@ -10,7 +10,7 @@ For this project, I decided to write a CSS document that overrides the existing 
 
 These changes include fonts, colors, and sizing of several elements.
 
-{CSS Styles file}(Canvas_styles.css)
+[CSS Styles file](Canvas_styles.css)
 
 ### Visual Demonstration of Changes
 
