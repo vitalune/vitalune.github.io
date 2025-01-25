@@ -12,4 +12,4 @@ These changes include fonts, colors, and sizing of several elements.
 
 ###Visual Demonstration of Changes
 
-![Custom Canvas Styles]
+![Custom Canvas Styles](new_canvas.png)
