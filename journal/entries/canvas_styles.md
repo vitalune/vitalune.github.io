@@ -1,6 +1,6 @@
-#Canvas Custom Styles - an ongoing project.
+# Canvas Custom Styles - an ongoing project.
 
-##Description
+## Description
 
 For this project, I decided to write a CSS document that overrides the existing styling of Canvas's dashboard. I did this by:
 
@@ -10,6 +10,6 @@ For this project, I decided to write a CSS document that overrides the existing 
 
 These changes include fonts, colors, and sizing of several elements.
 
-###Visual Demonstration of Changes
+### Visual Demonstration of Changes
 
 ![Custom Canvas Styles](new_canvas.png)
