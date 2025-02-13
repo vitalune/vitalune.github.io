@@ -1,4 +1,4 @@
-<Aboutus here>
+/* start Aboutus css here */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -29,9 +29,7 @@ nav ul li {
 
 nav ul li a {
     color: #fff;
-    text-decoration: none;
 }
-
 main {
     padding: 2rem;
 }
@@ -69,4 +67,19 @@ footer {
     bottom: 0;
     width: 100%;
 }
-<About us>
+/* end about us css here */
+body
+{
+   font-family: 'futura-pt', 'helvetica', 'sans-serif';
+}
+
+#home-header
+{
+   text-align: center;
+}
+
+#home_img
+{
+
+}
+
