@@ -1,6 +1,6 @@
 /* start Aboutus css here */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'futura-pt', 'helvetica', 'sans-serif';
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
@@ -68,11 +68,8 @@ footer {
     width: 100%;
 }
 /* end about us css here */
-body
-{
-   font-family: 'futura-pt', 'helvetica', 'sans-serif';
-}
 
+/* Start Homepage css */
 #home-header
 {
    text-align: center;
@@ -82,4 +79,46 @@ body
 {
 
 }
+/* End Homepage css */
 
+/* Start Reservations css */
+form
+{
+   background-color: #fff;
+   padding: 20px 30px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+}
+
+form label
+{
+   display: block;
+   margin-bottom: 5px;
+   font-weight: bold;
+}
+
+form input, form select, form textarea
+{
+   width: 100px;
+   padding: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+form input[type="submit"]
+{
+   grid-column: span 2;
+   background-color: #333;
+   color: #fff;
+   border: none;
+   font-size: 16px;
+   padding: 12px;
+}
+
+.full-width
+{
+   grid-column: span 2;
+}
