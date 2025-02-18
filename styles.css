@@ -41,19 +41,15 @@ main {
 #home-header
 {
    text-align: center;
-   background-color: #ECC5C0;
-   margin: 0;
-   padding: 0;
-   color:#333;
 }
 
-nav ul
+nav ul#links
 {
    display: flex;
-   justify-content: center;
-   margin: 0;
-   padding: 0;
-   background-color: #e4f4e4;
+   flex-direction: row;
+   justify-content: space-around;
+   gap: 10px;
+   flex-wrap: wrap;
 }
 
 nav ul li
