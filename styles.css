@@ -41,7 +41,6 @@ main {
 #home-header
 {
    text-align: center;
-   background-color: #ECC5C0;
    margin: 0;
    padding: 0;
    color:#333;
@@ -53,7 +52,6 @@ nav ul
    justify-content: center;
    margin: 0;
    padding: 0;
-   background-color: #e4f4e4;
 }
 
 nav ul li
