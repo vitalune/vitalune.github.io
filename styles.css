@@ -122,3 +122,8 @@ form input[type="submit"]
 {
    grid-column: span 2;
 }
+
+#reserve_photo
+{
+   width: 100vw;
+}
