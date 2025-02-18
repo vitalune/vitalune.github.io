@@ -43,12 +43,13 @@ main {
    text-align: center;
 }
 
-nav ul
+nav ul#links
 {
    display: flex;
-   justify-content: center;
-   margin: 0;
-   padding: 0;
+   flex-direction: row;
+   justify-content: space-around;
+   gap: 10px;
+   flex-wrap: wrap;
 }
 
 nav ul li
