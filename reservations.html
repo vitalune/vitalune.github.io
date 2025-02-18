@@ -12,6 +12,7 @@
 <body>
    <header>
 	<h1>Off The Pike Reservations</h1>
+   </header>
 	<form action="#" method="post">
 	   <div>
 		<label for="name">Name</label>
@@ -25,6 +26,26 @@
 		<label for="email">Email</label>
 		<input type="email" id="email" name="email" required>
 	   </div>
+	   <div>
+		<label for="time">Time</label>
+		<input type=time" id="time" name="time" required>
+	   </div>
+	   <div>
+		<label for="guests">Number of Guests</label>
+		<select id="guests" name="guests" required>
+		   <option value="1">1</option>
+		   <option value="2">2</option>
+		   <option value="3">3</option>
+		   <option value="4">4</option>
+		   <option value="5">5</option>
+		   <option value="6">6</option>
+		</select>
+	   </div>
 
+	   <div class="full-width">
+		<input type="submit" value="Reserve Now">
+	   </div>
+	</form>
+   <img id="reserve_photo" src="https://assets.bonappetit.com/photos/631788f25635b01b337f6bb4/master/pass/220827_GuangXu_BA-UncleLou_014.jpg">
 </body>
 </html>
