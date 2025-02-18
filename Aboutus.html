@@ -5,99 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Off The Pike</title>
 	 <script src="../js/init.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin: 0 1rem;
-        }
-
-        nav ul li a {
-            color: #fff;
-        }
-
-        main {
-            padding: 2rem;
-        }
-
-        .about-us {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .team {
-            max-width: 800px;
-            margin: 2rem auto;
-            text-align: center;
-        }
-
-        .team-member {
-            display: inline-block;
-            margin: 1rem;
-            text-align: center;
-        }
-
-        .team-member img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <h1>OFF THE PIKE</h1>
-        <nav>
-            <ul>
-                <li><a href="homepage.html">Home</a></li>
-                <li><a href="Menu.html">Menu</a></li>
-                <li><a href="Aboutus.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-		<li><a href="reservation.html">Reservations</a></li>  
-          </ul>
+        <nav id="nav">
+            <ul id="nav-list">
+                <li class="nav-item"><a href="homepage.html">Home</a></li>
+                <li class="nav-item"><a href="Menu.html">Menu</a></li>
+                <li class="nav-item"><a href="Aboutus.html">About Us</a></li>
+                <li class="nav-item"><a href="contact.html">Contact</a></li>
+                <li class="nav-item"><a href="reservation.html">Reservations</a></li>  
+            </ul>
         </nav>
     </header>
-    <main>
-        <section class="about-us">
+    <main id="main">
+        <section id="about-us">
             <h2>About Us</h2>
             <p>Welcome to Off The Pike, where we offer a unique dining experience with a variety of delicious dishes made from the freshest ingredients. Our team is dedicated to providing excellent service and a warm, welcoming atmosphere.</p>
             <p>Founded in 2025, Off The Pike has become a beloved spot for locals and visitors alike. Our chefs are passionate about creating flavorful meals that cater to all tastes and dietary preferences. We take pride in our farm-to-table approach, ensuring that every dish is both healthy and delicious.</p>
             <p>Whether you're here for a casual meal with friends or a special celebration, we strive to make every visit memorable. Thank you for choosing Off The Pike, and we look forward to serving you!</p>
         </section>
-        <section class="team">
+        <section id="team">
             <h2>Meet Our Team</h2>
             <div class="team-member">
                 <img src="Chef.jpeg" alt="Chef">
@@ -111,7 +41,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="footer">
         <p>&copy; 2025 Off The Pike. All rights reserved.</p>
     </footer>
 </body>
