@@ -7,8 +7,8 @@
 
 ## Screenshots
 
-![Homepage](../../images/homepage_ss.png)
-![Reservations](../../images/reserve_ss.png)
+![Homepage](homepage_ss.png)
+![Reservations](reserve_ss.png)
 
 ## Form Description
 
