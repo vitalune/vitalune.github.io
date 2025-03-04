@@ -1,0 +1,30 @@
+body{
+	background-color:honeydew;
+}
+h1{
+	text-transform:uppercase;
+	text-align: center;
+}
+#desc{
+	text-align: center;
+	font-style: italic;
+	text-transform: lowercase;
+}
+h2{
+	background-color:#DFD3C3;
+	font-family:'noto-serif', 'libre-baskerville', 'roboto-flex', 'roboto', sans-serif
+}
+p{
+	font-family:'helvetica', 'playfair display', 'lora', 'serif'
+}
+#id1{
+	text-align:center;
+	color:teal;
+}
+header{
+	background-color:rgb(204,204,255);
+}
+th, td, table{
+	border: 1px solid;
+	border-collapse:collapse;
+}
