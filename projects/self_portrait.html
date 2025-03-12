@@ -33,16 +33,26 @@
     ctx.fill();
     ctx.stroke();
 
-    // Draw eyes
-    // Left eye
+// Create radial gradient for left eye
+    let leftEyeGradient = ctx.createRadialGradient(170, 130, 2, 170, 130, 10);
+    leftEyeGradient.addColorStop(0, 'black');
+    leftEyeGradient.addColorStop(1, 'white');
+
+    // Draw left eye using gradient
     ctx.beginPath();
     ctx.arc(170, 130, 10, 0, Math.PI * 2, true);
-    ctx.fillStyle = '#000';
+    ctx.fillStyle = leftEyeGradient;
     ctx.fill();
 
-    // Right eye
+    // Create radial gradient for right eye
+    let rightEyeGradient = ctx.createRadialGradient(230, 130, 2, 230, 130, 10);
+    rightEyeGradient.addColorStop(0, 'black');
+    rightEyeGradient.addColorStop(1, 'white');
+
+    // Draw right eye using gradient
     ctx.beginPath();
     ctx.arc(230, 130, 10, 0, Math.PI * 2, true);
+    ctx.fillStyle = rightEyeGradient;
     ctx.fill();
 
     // Draw nose
