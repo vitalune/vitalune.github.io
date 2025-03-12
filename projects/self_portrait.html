@@ -1,18 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-	<title>Self Portrait</title>
-	<script src="../js/init.js"></script>
-   <style>
-	canvas{
-	   display: block;
-	   border: 1px solid;
-	   margin: auto;
-	   margin-top: 50px;
-	}
-   </style>
-   </head>
-   <body>
-	<canvas id="myCanvas" width="400" height="400">
-   </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Self-Portrait</title>
+  <style>
+    /* Center the canvas on the page */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+      margin: 0;
+    }
+    canvas {
+      border: 1px solid #ccc;
+      background-color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="portraitCanvas" width="400" height="400"></canvas>
+  <script>
+    const canvas = document.getElementById('portraitCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // Draw head
+    ctx.beginPath();
+    ctx.arc(200, 150, 80, 0, Math.PI * 2, true); // x, y, radius, start, end
+    ctx.fillStyle = '#FFDAB9'; // Skin tone
+    ctx.fill();
+    ctx.stroke();
+
+    // Draw eyes
+    // Left eye
+    ctx.beginPath();
+    ctx.arc(170, 130, 10, 0, Math.PI * 2, true);
+    ctx.fillStyle = '#000';
+    ctx.fill();
+
+    // Right eye
+    ctx.beginPath();
+    ctx.arc(230, 130, 10, 0, Math.PI * 2, true);
+    ctx.fill();
+
+    // Draw nose
+    ctx.beginPath();
+    ctx.moveTo(200, 140);
+    ctx.lineTo(200, 160);
+    ctx.stroke();
+
+    // Draw mouth
+    ctx.beginPath();
+    ctx.arc(200, 160, 30, 0, Math.PI, false);  // Half circle (smile)
+    ctx.stroke();
+
+    /* Draw hair
+    ctx.beginPath();
+    ctx.arc(200, 150, 90, Math.PI, 2 * Math.PI, false); // Hair above head
+    ctx.fillStyle = '#654321'; // Hair color
+    ctx.fill();
+    ctx.stroke();
+    */
+
+    // Draw ears
+    // Left ear
+    ctx.beginPath();
+    ctx.arc(120, 150, 10, 0, Math.PI * 2, true);
+    ctx.fillStyle = '#FFDAB9';
+    ctx.fill();
+    ctx.stroke();
+    // Right ear
+    ctx.beginPath();
+    ctx.arc(280, 150, 10, 0, Math.PI * 2, true);
+    ctx.fill();
+    ctx.stroke();
+
+    // Draw neck
+    ctx.beginPath();
+    ctx.moveTo(190, 230);
+    ctx.lineTo(190, 250);
+    ctx.lineTo(210, 250);
+    ctx.lineTo(210, 230);
+    ctx.closePath();
+    ctx.fillStyle = '#FFDAB9';
+    ctx.fill();
+    ctx.stroke();
+  </script>
+</body>
 </html>
