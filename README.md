@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Reservation System
-
-## This repo will host our team's reservation code
-=======
 # Welcome to my website.
 
 This was created using markdown, a powerful formatting language that is optimized for reading. 
