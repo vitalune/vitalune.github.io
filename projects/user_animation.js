@@ -13,6 +13,8 @@ const player = {
     x:200,y:200,color:'black',speed:3
 }
 
+const keys = {};
+
 function drawPlayer(){
     ctx.fillStyle = player.color;
     ctx.beginPath();
@@ -62,6 +64,10 @@ function handleKeyPress(e){
 }
 
 document.addEventListener('keydown', handleKeyPress);
+
+document.addEventListener('keyup', (e) => {
+    console.log(e.key + " up");
+});
 
 //call our function
 animate();
