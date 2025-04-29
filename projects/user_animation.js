@@ -8,6 +8,8 @@ let y = 0;
 let dy = 1.3;
 let i = 0;
 let color = colorArray[i];
+let score = 0;
+let gameRunning = true;
 
 const player = {
     x:200,y:200,color:'black',speed:3
@@ -37,10 +39,37 @@ function drawRect(x,y) {
     ctx.fill();
 }
 
+function movePlayer(){
+    if(keys['ArrowDown'] && player.y < 400){
+	player.y += player.speed;
+    }
+    if(keys['ArrowUp'] && player.y > 0){
+        player.y -= player.speed;
+    }
+    if(keys['ArrowLeft']){
+        player.x -= player.speed;
+    }
+    if(keys['ArrowRight']){
+        player.x += player.speed;
+    }
+    if(player.x > 400){
+	player.x = 0;
+    }
+    if(player.x < 0){
+	player.x = 400;
+    }
+}
+
 function animate() {
+    if(gameRunning){
     drawRect(x, y);
     drawPlayer();
-
+    movePlayer();
+    score++;
+    drawScore();
+    if(score > 1000){
+	gameRunning = false;
+    }
     // TODO: Add some code here 
     //  that will change the rectangle's position
     x = x + dx;
@@ -55,18 +84,25 @@ function animate() {
         y = y + dy;
         color = colorArray[i++];
       }
-
+    }
     requestAnimationFrame(animate);
 }
 
+function drawScore(){
+    ctx.font = "10px Arial";
+    ctx.fillText(score, 10, 10);
+}
+
 function handleKeyPress(e){
-    console.log(e.key);
+    //console.log(e.key);
+    keys[e.key] = true;
 }
 
 document.addEventListener('keydown', handleKeyPress);
 
 document.addEventListener('keyup', (e) => {
-    console.log(e.key + " up");
+    //console.log(e.key + " up");
+    keys[e.key] = false;
 });
 
 //call our function
