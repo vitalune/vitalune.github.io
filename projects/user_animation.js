@@ -60,32 +60,51 @@ function movePlayer(){
     }
 }
 
+function checkCollision(){
+    let player_min_x = player.x - 20;
+    let player_max_x = player.x + 20;
+    let player_min_y = player.y - 20;
+    let player_max_y = player.y + 20;
+
+    let box_min_x = x;
+    let box_max_x = x + 50;
+    let box_min_y = y;
+    let box_max_y = y + 50;
+
+    if(box_max_y > player_min_y
+       && box_min_y < player_max_y
+       && box_max_x > player_min_x
+       && box_min_x < player_max_x){
+	gameRunning = false;
+    }
+}
+
 function animate() {
     if(gameRunning){
     drawRect(x, y);
     drawPlayer();
+    moveBox();
     movePlayer();
-    score++;
     drawScore();
-    if(score > 1000){
-	gameRunning = false;
-    }
-    // TODO: Add some code here 
-    //  that will change the rectangle's position
-    x = x + dx;
-    y = y + dy;
-
-    if(x > 350 || x < 0){
-      dx = dx*-1;
-      x = x + dx;
-      color = colorArray[i++];
-      } else if(y > 350 || y < 0){
-        dy = dy*-1;
-        y = y + dy;
-        color = colorArray[i++];
-      }
+    checkCollision();
+    score++; 
     }
     requestAnimationFrame(animate);
+}
+
+function moveBox(){
+    x = x + dx; 
+    y = y + dy; 
+ 
+    if(x > 350 || x < 0){ 
+      dx = dx*-1; 
+      x = x + dx; 
+      color = colorArray[i++]; 
+      } else if(y > 350 || y < 0){ 
+        dy = dy*-1; 
+        y = y + dy; 
+        color = colorArray[i++]; 
+      }
 }
 
 function drawScore(){
@@ -94,14 +113,12 @@ function drawScore(){
 }
 
 function handleKeyPress(e){
-    //console.log(e.key);
     keys[e.key] = true;
 }
 
 document.addEventListener('keydown', handleKeyPress);
 
 document.addEventListener('keyup', (e) => {
-    //console.log(e.key + " up");
     keys[e.key] = false;
 });
 
