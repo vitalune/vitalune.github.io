@@ -1,4 +1,4 @@
-# Overly-Simplified Balatro, my Inspired Game Concept
+# Balatro-like Poker, my Inspired Game Concept
 
 ## What genre will your game be?
 
