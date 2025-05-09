@@ -1,4 +1,4 @@
-# Balatro, my Inspired Game Concept
+# Overly-Simplified Balatro, my Inspired Game Concept
 
 ## What genre will your game be?
 
