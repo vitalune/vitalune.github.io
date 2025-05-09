@@ -30,4 +30,4 @@ The player will:
 | discard mechanics | something like onDiscard(clickEvent) moves selected card to discardPile, and decrements discardsLeft by an event handler |
 | shop phase UI | no idea yet |
 
-there are a few backend components that I would need to add for this code to work which I'm not experienced enough to do as of yet. I'm still committed to this project, and am treating this as an opportunity to learn through a challenge.
+this game does not intend to mimic or copy Balatro- it will be much simpler, with fewer total features. there are a few backend components that I would need to add for this code to work which I'm not experienced enough to do as of yet. I'm still committed to this project, and am treating this as an opportunity to learn through a challenge.
